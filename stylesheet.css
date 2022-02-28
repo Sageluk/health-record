@@ -1,0 +1,243 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+ 
+}
+.container
+{
+  border: 2px solid blue;
+  width: 90%;
+  height: 80%;
+margin: auto;
+margin-top: 50px;
+
+}
+
+.col
+{
+  position: relative;
+}
+.row
+{
+  display: flex;
+  padding: 20px;
+
+
+}
+.col:first-child
+{
+  margin-right: 450px;
+}
+#box div
+{
+  width: 90px;
+  height: 60px;
+  position: absolute;
+  border: 2px solid blue;
+ right: -400px;
+ align-items: center;
+ padding: 10px 20px;
+ text-align: center;
+ border-radius: 4px;
+
+}
+.container2
+{
+  margin-top: 20px;
+
+  width: 90%;
+  height:40%;
+margin-left: 68.5px;
+margin-top: 0px;
+position: absolute;
+
+}
+.row2
+{
+  display: flex;
+ padding-top:0;
+}
+.col2  p
+{
+width: 100%;
+border: 1px solid blue;
+
+padding: 5px;
+text-align: center;
+}
+.col2
+{
+  width: 100%;
+  border: 1px solid blue;
+  height: 20%;
+padding-top:  0;
+padding-bottom: 220px;
+
+}
+.logincontent
+{
+top: 550px;
+position: absolute;
+margin-left: 60px;
+display: flex;
+}
+.column
+{
+width: 500px;
+align-items: center;
+justify-content: center;
+text-align: center;
+height: 50px;
+border: 2px solid blue;
+}
+.content2021
+{
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0,100,0,0.7),rgba(0,100,0,0.7)),url(images/background.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+nav 
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  padding-top: 30px;
+  padding-right: 2%;
+  padding-left: 2%;
+}
+nav img
+{
+width: 120px;
+}
+nav ul
+{
+display: flex;
+}
+nav ul li
+{
+  list-style: none;
+  margin: 10px 20px;
+}
+nav ul li a
+{
+ text-decoration: none;
+ font-size: 20px;
+ color: white;
+}
+nav ul li a:hover
+{
+ 
+ color: yellow;
+}
+
+.row2022
+{
+  display: flex;
+  margin-top: 200px;
+  margin-left: 200px;
+}
+.col22 h1
+{
+  margin-bottom: 30px;
+  text-align:  center;
+}
+.col23 h1
+{
+  margin-bottom: 30px;
+  text-align:  center;
+  margin-top: 20px;
+  
+}
+.col23 p
+{
+ color: white;
+ padding: 10px 30px;
+ width: 100%;
+ font-size: 20px;
+ line-height: 30px;
+  
+}
+.col22
+{
+  width: 50%;
+  background: yellow;
+  padding: 30px 40px;
+ justify-content: center;
+ align-items: center;
+}
+.col23
+{
+  width: 30%;
+  background: blue;
+padding: 10px 0;
+}
+tr td input
+{
+width: 200%;
+border: none;
+padding:  10px;
+margin-top: 10px;
+}
+ button
+{
+  padding: 7px 30px;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  margin-top: 20px;
+  margin-left: 200px;
+  font-size: 20px;
+  color: white;
+  background: blue;
+}
+.link
+{
+  text-align: center;
+  margin-top: 20px;
+ 
+}
+.link2
+{
+   margin-bottom: 30px;
+}
+.collog
+{
+  width: 50%;
+  height: 50%;
+  border: 2px solid red;
+  margin-top: 50px;
+  margin-left: 300px;
+  background: blue;
+  padding: 10px 40px;
+}
+.button1
+{
+  background-color: yellow;
+  color: blue;
+}
+.content2021 h1
+{
+text-align: center;
+margin-top: 200px;
+font-size: 80px;
+color: white;
+
+}
+
+.content2021 p
+{
+text-align: center;
+margin-top: 10px;
+font-size: 20px;
+font-weight: 500;
+color: white;
+
+}
